@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "_userId":1,                                         
+      "_name": "Shreyas Ambhaikar",
+      "_password": "ShreyasAmbhaikar@123",
+      "_email": "ambhaikarshreyasclaret1516@gmail.com",
+      "_phone": 9028393842,
+      "_isActive" : true,
+      "_citySelected" :"Pune",
+      "_interest" :[""]
+    }
+  ],
+
+  "movies": [
+    {
+      "_movieId": 1,
+      "_title": "Salaar: Cease Fire - Part 1",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "C:\\fakepath\\tv.jfif",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "Hyderabad"],
+      "Seats": [
+        {
+            "Type": "Regular",
+            "Price": 14.99,
+            "Status": "Almost "
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "_movieId": 2,
+      "_title": "Salaar: Cease Fire - Part 1",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "C:\\fakepath\\tv.jfif",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "Hyderabad"],
+      "Seats": [
+        {
+            "Type": {
+              "_City": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "chimur"]
+            },
+            "Price": 14.99,
+            "Status": "Almost Full"
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    }
+  ],
+
+  "bookings": [
+    {
+      "_bookingId":1,                                         
+      "_seats": [1,2,3],
+      "_userId": 1,
+      "_showId": 1,
+      "_totalAmount": 30.00,
+      "_status": "Available"
+
+    }
+  ],
+
+  "shows": [
+    {
+      "_showId": 1,
+      "_date": "2023-12-22",
+      "_movieId": 1,
+      "_theaterId":1,
+      "_startTime": "14:00",
+      "_endTime": "16:00"
+    }
+  ],
+
+  "cities": [
+    {
+      "_cityId": 1,
+      "_name": "Pune",
+      "_state": "Maharashtra",
+      "pincode":"590056"
+    }
+  ],
+
+  "theaters": [
+    {
+      "_theaterId": 1,
+      "_name": "PVR ICON Pavillion Mall",
+      "_cityId": 1
+    }
+  ],
+
+  "seats": [
+    {
+      "_seatId": 1,
+      "cinemaHallId": 1,
+      "seatNumber": 1
+    }
+  ]
+}

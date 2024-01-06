@@ -1,0 +1,90 @@
+
+  .movie-overlay{
+    height:70px;
+    width:50px;
+    
+  }
+
+  .movie-text{
+    position: relative;
+    left:75%;
+  }
+
+
+ 
+
+
+  .overall{
+    display: inline-flex;
+  }
+
+  .stream{
+    position: absolute;
+    left:50%;
+  }
+  
+  #streamingH2{
+    position: relative;
+    left:103px;
+    top:16px;
+  }
+
+
+  .table-filter{
+    width:8px;
+  }
+
+  .langtext{
+    position: relative;
+    left: -25%;
+  }
+
+  .genrestext{
+    position: relative;
+    left: -25%;
+  }
+
+  .langtext2{
+    position: relative;
+    left: -25%;
+  }
+
+  .genrestext2{
+    position: relative;
+    left: -25%;
+  }
+
+.filer-movies-container{
+  border: 2px solid red;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+  #all-movies-container{
+
+    box-shadow: 0px 0px 2px 2px grey;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+  }
+  #single-movie-card{
+    border: 2px solid green;
+    margin: 10px 10px;
+  
+    height: 500px;
+    padding: 0px;
+width: 300px;
+
+   }
+   #single-movie-card img{
+    height: 70%;
+    width:100%
+   }
+
+   .filter-container{
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   }

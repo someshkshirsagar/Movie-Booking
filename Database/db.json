@@ -14,22 +14,23 @@
 
   "movies": [
     {
-      "_movieId": 1,
+      "id": 1,
       "_title": "Salaar: Cease Fire - Part 1",
       "_duration": 175,
       "_country": "India",
       "_certificateType": "A",
       "_rating": 8.4,
       "_releaseDate": "2023-12-22",
-      "_image": "C:\\fakepath\\tv.jfif",
+      "_image": "../images/salaar.jpg",
       "_backgroundImage": "C:\\fakepath\\tv.jfif",
       "_director":"Prashant Neel",
-      "_genre": ["Action", "Thriller"],
+      "_genre": ["Action", "Thriller","Romantic"],
       "_format": ["2D", "IMAX 3D"],
       "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
       "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
       "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
       "_availableInCity": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "Hyderabad"],
+      "_castImages":["../images/salaar.jpg","../images/salaar.jpg"],
       "Seats": [
         {
             "Type": "Regular",
@@ -44,14 +45,141 @@
     ] 
     },
     {
-      "_movieId": 2,
-      "_title": "Salaar: Cease Fire - Part 1",
+      "id": 2,
+      "_title": "Animal",
       "_duration": 175,
       "_country": "India",
       "_certificateType": "A",
       "_rating": 8.4,
       "_releaseDate": "2023-12-22",
-      "_image": "C:\\fakepath\\tv.jfif",
+      "_image": "../images/salaar.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller","Comedy"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "Hyderabad"],
+      "_castImages":["../images/salaar.jpg","../images/salaar.jpg"],
+      "Seats": [
+        {
+            "Type": {
+              "_City": ["Pune"]
+            },
+            "Price": 14.99,
+            "Status": "Almost Full"
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "id": 3,
+      "_title": "Dunki",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "../images/salaar.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": ["Hyderabad", "Mumbai"],
+      "_castImages":["../images/salaar.jpg","../images/salaar.jpg"],
+      "Seats": [
+        {
+            "Type": "Regular",
+            "Price": 14.99,
+            "Status": "Almost "
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "id": 4,
+      "_title": "Migration",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "../images/salaar.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": [ "Hyderabad"],
+      "Seats": [
+        {
+            "Type": {
+              "_City": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "chimur"]
+            },
+            "Price": 14.99,
+            "Status": "Almost Full"
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "id": 5,
+      "_title": "Sam Bahadur",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "../images/salaar.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_director":"Prashant Neel",
+      "_genre": ["Action", "Thriller"],
+      "_format": ["2D", "IMAX 3D"],
+      "_languages": ["Tamil", "Hindi","Telugu", "kannada", "Malayalam"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
+      "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
+      "_availableInCity": [ "Hyderabad"],
+      "_castImages":["../images/salaar.jpg","../images/salaar.jpg"],
+      "Seats": [
+        {
+            "Type": "Regular",
+            "Price": 14.99,
+            "Status": "Almost "
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "id": 6,
+      "_title": "Parasite",
+      "_duration": 175,
+      "_country": "India",
+      "_certificateType": "A",
+      "_rating": 8.4,
+      "_releaseDate": "2023-12-22",
+      "_image": "../images/salaar.jpg",
       "_backgroundImage": "C:\\fakepath\\tv.jfif",
       "_director":"Prashant Neel",
       "_genre": ["Action", "Thriller"],
@@ -60,6 +188,61 @@
       "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
       "_cast": ["Prabhas", "Prithviraj Sukumaran","Shruti Hassan", "Jagapati Babu", "Ramacharan Raju", "Tinnu Anand"],
       "_availableInCity": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "Hyderabad"],
+      "_castImages":["../images/salaar.jpg","../images/salaar.jpg"],
+      "Seats": [
+        {
+            "Type": {
+              "_City": ["Pune", "Mumbai","Bangalore", "Nagpur", "Delhi", "chimur"]
+            },
+            "Price": 14.99,
+            "Status": "Almost Full"
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "_title": "Darshan Raval India Tour",
+      "_venue":"Oasis GW9P+H3R, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028, India",
+      "_date":"Jan-14,2023",
+      "_time":"5PM Onwards",
+      "_country": "India",
+      "_image": "../images/darshan_raval.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_genre": ["Music"],
+      "_description": "Get ready for an unforgettable musical journey as Darshan Raval, the heartthrob of Indian music, embarks on his much-anticipated nationwide tour ",
+     
+      "Seats": [
+        {
+            "Type": "Regular",
+            "Price": 14.99,
+            "Status": "Almost "
+        }, 
+        {
+            "Type": "Premium",
+            "Price": 24.99,
+            "Status": "Available"
+        }
+    ] 
+    },
+    {
+      "id": 2,
+      "_title": "Darshan Raval India Tour",
+      "_venue":"Oasis GW9P+H3R, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028, India",
+      "_date":"Jan-14,2023",
+      "_time":"5PM Onwards",
+      "_country": "India",
+      "_image": "../images/darshan_raval.jpg",
+      "_backgroundImage": "C:\\fakepath\\tv.jfif",
+      "_genre": ["Music"],
+      "_description": "Brace yourself for an extraordinary tale of rebellion filled with power-packed action",
       "Seats": [
         {
             "Type": {

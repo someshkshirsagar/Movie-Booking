@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>All Movies | BookMe</title>
+  <link rel="icon" type="image/x-icon" href="../images/Logo.png">
+  <script src="../JS/plugins/all_cdn.js"></script>
+  <link rel="stylesheet" href="../CSS/all_movies.css">
+
+  <link rel="stylesheet" href="../CSS/navbar.css">
+
+
+</head>
+
+<body>
+
+
+
+  <div class="filer-movies-container">
+    <div>
+      <div class="filter-dropdown">
+
+
+
+
+        <div class="shawn">
+          &nbsp; &nbsp;
+          <h2>Filters</h2>
+          &nbsp; &nbsp;
+          <div class="filter-container">
+            <div class="div col-3 col-md-6 col-sm-12 mb-3 filter_card as-1" style="width: 18rem">
+              <span>Language</span>
+              <div class="filter">
+
+
+                <input type="checkbox" class="checkbox" value="English" />&nbsp;&nbsp; English <br /><input
+                  type="checkbox" class="checkbox" value="Hindi" />&nbsp;&nbsp; Hindi <br /><input type="checkbox"
+                  class="checkbox" value="Marathi" />&nbsp;&nbsp; Marathi
+
+              </div>
+            </div>
+
+            <div class="div col-3 col-md-6 col-sm-12 mb-3 filter_card as-2" style="width: 18rem">
+              <span>Genre</span>
+
+              <div class="filter">
+                <input type="checkbox" class="checkbox" value="horror" />&nbsp;&nbsp; Horror <br /><input
+                  type="checkbox" class="checkbox" value="Comedy" />&nbsp;&nbsp; Comedy <br /><input type="checkbox"
+                  class="checkbox" value="Action" />&nbsp;&nbsp; Action <br /><input type="checkbox" class="checkbox"
+                  value="Romantic" />&nbsp;&nbsp; Romantic <br /><input type="checkbox" class="checkbox"
+                  value="All" />&nbsp;&nbsp; All
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="cityDropdown">
+              <li><a class="dropdown-item" href="#" value="All">All</a></li>
+              <li><a class="dropdown-item" href="#" value="Pune">Pune</a></li>
+              <li><a class="dropdown-item" href="#" value="Mumbai">Mumbai</a></li>
+              <li><a class="dropdown-item" href="#" value="Banglore">Banglore</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="all-events-container">
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <div class="container-fluid card-footer text-muted bg-dark text-center">
+    <p>&copy; 2023 Movies.com</p>
+  </div>
+
+
+  <script src="../JS/controller/eventsController.js" type="module"></script>
+  <script src="../JS/controller/navBarController.js" type="module"></script>
+</body>
+
+</html>

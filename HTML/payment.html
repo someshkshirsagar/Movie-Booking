@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/payment.css">
+    <script src="../JS/plugins/all_cdn.js"></script>
+</head>
+<body>
+    <div class="payment-order"> 
+        <div class="payment-contact">
+            <div class="contact">
+                <h3 class="payment-heading">Contact Details</h3>
+                <div>
+                    <input type="email"  id="user-email" placeholder="Enter Your Email">
+                <input type="number"  id="user-mobile" placeholder="Enter Your Mobile Number">
+               
+                </div>
+            </div>
+
+            <div class="payment">
+                <h3 class="payment-heading">Payment</h3>
+                <div class="payment-options-container">
+                    <div class="payment-options">
+                        <button class="credit-card" id="credit-card">Credit Card</button>
+                        <button class="upi" id="upi">Upi</button>
+                    </div>
+                    <div class="payment-details">
+                        
+
+                        <div class="card-details" id="card-details">
+                            <h3>Enter You Card Details</h3>
+                            <input type="number"  id="card-number" placeholder="Enter Card Number"><br><br>
+                            <input type="text"  id="card-name" placeholder="Name on Card"><br><br>
+
+                            <label for="expiry">Expiry</label><br>
+                            <input type="number" name="expiry" class="expiry" placeholder="MM">
+                            <input type="number" name="expiry" class="expiry" placeholder="YY"><br><br>
+                            <label for="cvv">CVV</label><br>
+                            <input type="password" name="cvv" id="cvv" placeholder="Enter CVV">
+
+                            
+                           
+                        </div>
+                        <div class="upi-details" id="upi-details">
+                            <input type="number"  id="card-number" placeholder="Enter Card Number"><br><br>
+                            <input type="text"  id="card-name" placeholder="Name on Card"><br><br>
+
+                            <label for="expiry">UPI</label><br>
+                            <input type="number" name="expiry" class="expiry" placeholder="MM">
+                            <input type="number" name="expiry" class="expiry" placeholder="YY"><br><br>
+                            <label for="cvv">CVV</label><br>
+                            <input type="password" name="cvv" id="cvv" placeholder="Enter CVV">
+
+                            
+                           
+                        </div>
+
+
+                        
+
+                        <button id="make-payment">Make Payment</button>
+                    </div>
+                </div>
+                
+
+            </div>
+           
+    </div>
+
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+
+        <div class="movie-details">
+            <p id="movie-name">Avengers: Endgame (U/A)</p>
+            <p id="movie-language">Hindi, 2D</p>
+            <p id="movie-location">Metro INOX Cinemas, Mumbai</p>
+            <p id="movie-date">Sun, 31 Dec, 2023</p>
+            <p id="movie-time">7:00 PM</p>
+            <div class="ticket-number">
+                <p>Number of Tickets</p>
+                <p>2</p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="ticket-details">
+           
+           
+            <div class="sub-total">
+                <p>Sub Total</p>
+                <p>&#8377; 500</p>
+            </div>
+            <div class="convenience-fees">
+                <p> Convenience fees</p>
+                <p>&#8377; 0</p>
+            </div>
+            
+        </div>
+
+        <div class="total">
+            <p> Total</p>
+            <p>&#8377; 550</p>
+        </div>
+    </div>
+
+</div>
+   
+<script>
+    $(document).ready(function(){
+
+        $('#upi-details').hide();
+        $("#credit-card").click(function(){
+
+            $('#card-details').show();
+        $('#upi-details').hide();
+        })
+        $("#upi").click(function(){
+
+$('#card-details').hide();
+$('#upi-details').show();
+})
+       
+    })
+</script>
+</body>
+</html>
